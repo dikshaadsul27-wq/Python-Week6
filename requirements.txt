@@ -1,0 +1,27 @@
+REQUIREMENTS
+1. Install Python & Dependencies
+- Make sure you have Python 3.9+ installed.
+- Install required libraries:
+
+pip install pandas seaborn matplotlib plotly
+
+2. Project Structure
+- Inside it, place your dashboard.py.
+- Add a subfolder called visualizations/ (this is where plots and dashboards will be saved).
+│── dashboard.py
+│── visualizations/
+
+3. Run the Script
+- Open a terminal in the project folder.
+- Run:
+
+python dashboard.py
+
+The script will generate:
+- Static plots (.png) saved in visualizations/.
+- Interactive dashboards (.html) saved in visualizations/.
+
+4. View the Dashboard
+- Navigate to the visualizations/ folder.
+- Open final_dashboard.html in your browser — this is the interactive dashboard.
+- You can also open interactive_line.html and interactive_dropdown.html for individual interactive charts.
